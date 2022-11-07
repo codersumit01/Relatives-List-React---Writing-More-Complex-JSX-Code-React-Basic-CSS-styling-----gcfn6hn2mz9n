@@ -7,6 +7,12 @@ class App extends Component {
         return(
             <div id="main">
                {/* Do not remove the main div */}
+               <ol>
+               <li>gm:abc</li>
+               <li>gm1:bcd</li>
+               <li>gm2:efg</li>
+               <li>gm3:hij</li>
+               </ol>
             </div>
         )
     }
