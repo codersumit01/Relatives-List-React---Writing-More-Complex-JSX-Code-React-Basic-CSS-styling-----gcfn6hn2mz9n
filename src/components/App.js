@@ -8,10 +8,10 @@ class App extends Component {
             <div id="main">
                {/* Do not remove the main div */}
                <ol>
-               <li>gm:abc</li>
-               <li>gm1:bcd</li>
-               <li>gm2:efg</li>
-               <li>gm3:hij</li>
+               <li key = {'gm'}>abc</li>
+               <li key = {'gm1'}>bcd</li>
+               <li key = {'gm2'}>efg</li>
+               <li key = {'gm3'}>hij</li>
                </ol>
             </div>
         )
